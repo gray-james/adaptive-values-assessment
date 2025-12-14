@@ -1,0 +1,13 @@
+.radar-chart-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0;
+    width: 100%;
+    overflow-x: auto;
+}
+
+.radar-chart {
+    max-width: 100%;
+    height: auto;
+}

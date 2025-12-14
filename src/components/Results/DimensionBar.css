@@ -1,0 +1,111 @@
+.dimension-bar {
+    background: white;
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    border: 1px solid #f0f0f0;
+}
+
+.dimension-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.dimension-name {
+    font-weight: 600;
+    font-size: 1.125rem;
+    color: var(--color-text-main);
+    font-family: var(--font-heading);
+}
+
+.dimension-score {
+    font-weight: 700;
+    color: var(--color-primary);
+    background: #e6f0eb;
+    /* Light green tint */
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    font-size: 0.875rem;
+}
+
+.dimension-scale-container {
+    margin-bottom: 1rem;
+}
+
+.scale-labels {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+    font-size: 0.75rem;
+    color: var(--color-secondary);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.scale-track {
+    height: 8px;
+    background-color: #f0f0f0;
+    border-radius: 4px;
+    position: relative;
+}
+
+.scale-fill {
+    height: 100%;
+    background-color: var(--color-primary);
+    border-radius: 4px;
+    opacity: 0.3;
+}
+
+.scale-marker {
+    position: absolute;
+    top: 50%;
+    width: 12px;
+    height: 12px;
+    background-color: var(--color-primary);
+    border: 2px solid white;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.dimension-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 1rem;
+    font-size: 0.875rem;
+}
+
+.dimension-description {
+    color: #555;
+    margin: 0;
+    flex: 1;
+    line-height: 1.4;
+    font-family: var(--font-body);
+}
+
+.dimension-confidence {
+    color: var(--color-secondary);
+    font-size: 0.75rem;
+    white-space: nowrap;
+}
+
+.confidence-value.high {
+    color: #34a853;
+    font-weight: 600;
+}
+
+.confidence-value.low {
+    color: #fbbc05;
+    font-weight: 600;
+}
+
+@media (max-width: 600px) {
+    .dimension-footer {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+}

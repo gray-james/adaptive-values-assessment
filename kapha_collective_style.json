@@ -1,0 +1,1062 @@
+{
+  "general_branding": {
+    "color_palette": {
+      "primary": {
+        "name": "Deep Rolex Green",
+        "hex": "#006039"
+      },
+      "secondary": {
+        "name": "Cool Grey",
+        "hex": "#8c92ac"
+      },
+      "accent1": {
+        "name": "Gold",
+        "hex": "#FFD700"
+      },
+      "accent2": {
+        "name": "Light Grey",
+        "hex": "#D3D3D3"
+      },
+      "text_light": {
+        "name": "Off-White",
+        "hex": "#F5F5F5"
+      },
+      "text_dark": {
+        "name": "Charcoal",
+        "hex": "#333333"
+      }
+    },
+    
+    "typography": {
+      "headings": {
+        "font_family": "Montserrat",
+        "fallback": "sans-serif"
+      },
+      "body": {
+        "font_family": "Lora",
+        "fallback": "serif"
+      },
+      "monospace": {
+        "font_family": "Fira Code",
+        "fallback": "monospace"
+      }
+    }
+  },
+  "profiles": {
+    "html_css": {
+      "body": {
+        "font-family": "'Lora', serif",
+        "color": "#333333",
+        "background-color": "#FFFFFF",
+        "line-height": "1.6"
+      },
+      "h1, h2, h3, h4, h5, h6": {
+        "font-family": "'Montserrat', sans-serif",
+        "color": "#006B6B",
+        "margin-bottom": "0.5em"
+      },
+      "p": {
+        "margin-bottom": "1em"
+      },
+      "a": {
+        "color": "#B8860B",
+        "text-decoration": "none"
+      },
+      "a:hover": {
+        "text-decoration": "underline"
+      },
+      "table": {
+        "width": "100%",
+        "border-collapse": "collapse",
+        "margin-bottom": "1em"
+      },
+      "th, td": {
+        "border": "1px solid #8B8680",
+        "padding": "8px",
+        "text-align": "left"
+      },
+      "th": {
+        "background-color": "#006B6B",
+        "color": "#F5F5F5",
+        "font-family": "'Montserrat', sans-serif"
+      },
+      "blockquote": {
+        "border-left": "4px solid #87A96B",
+        "padding-left": "1em",
+        "margin-left": "0",
+        "font-style": "italic",
+        "color": "#8B8680"
+      },
+      "pre, code": {
+        "font-family": "'Fira Code', monospace",
+        "background-color": "#F5F5F5",
+        "border": "1px solid #8B8680",
+        "border-radius": "4px",
+        "padding": "0.2em 0.4em"
+      },
+      "pre": {
+        "padding": "1em",
+        "overflow-x": "auto"
+      }
+    },
+    "html_email": {
+      "comment": "Styles for HTML emails, designed for maximum compatibility across email clients (especially Outlook) using inline styles and table-based layouts.",
+      "body": {
+        "style": "font-family: 'Lora', serif; color: #333333; background-color: #FFFFFF; line-height: 1.6;"
+      },
+      "container_table": {
+        "style": "width: 100%; max-width: 600px; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-spacing: 0; background-color: #FFFFFF;",
+        "attributes": "cellpadding=\"0\" cellspacing=\"0\" border=\"0\""
+      },
+      "header_cell": {
+        "style": "background-color: #006B6B; padding: 20px; text-align: center;",
+        "font_style": "font-family: 'Montserrat', sans-serif; color: #F5F5F5; font-size: 24px; font-weight: bold;"
+      },
+      "content_cell": {
+        "style": "padding: 20px; background-color: #FFFFFF;",
+        "font_style": "font-family: 'Lora', serif; color: #333333; font-size: 14px;"
+      },
+      "button_table": {
+        "style": "border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-spacing: 0;",
+        "attributes": "cellpadding=\"0\" cellspacing=\"0\" border=\"0\""
+      },
+      "button_cell": {
+        "style": "background-color: #B8860B; border-radius: 5px;",
+        "attributes": "align=\"center\" bgcolor=\"#B8860B\""
+      },
+      "button_link": {
+        "style": "font-family: 'Montserrat', sans-serif; font-size: 16px; font-weight: bold; color: #FFFFFF; text-decoration: none; padding: 12px 24px; display: inline-block; border-radius: 5px;",
+        "attributes": "target=\"_blank\""
+      },
+      "footer_cell": {
+        "style": "background-color: #8B8680; padding: 20px; text-align: center;",
+        "font_style": "font-family: 'Lora', serif; color: #F5F5F5; font-size: 12px;"
+      },
+      "link": {
+        "style": "color: #B8860B; text-decoration: underline;"
+      }
+    },
+    "html_devops_page": {
+      "comment": "Comprehensive CSS styles for a modern web application, suitable for a DevOps dashboard or similar interactive pages.",
+      "body": {
+        "font-family": "'Lora', serif",
+        "color": "#333333",
+        "background-color": "#F5F5F5",
+        "line-height": "1.6",
+        "margin": "0",
+        "padding": "0"
+      },
+      "h1, h2, h3, h4, h5, h6": {
+        "font-family": "'Montserrat', sans-serif",
+        "color": "#006B6B",
+        "margin-bottom": "0.5em",
+        "margin-top": "1em"
+      },
+      "p": {
+        "margin-bottom": "1em"
+      },
+      "a": {
+        "color": "#B8860B",
+        "text-decoration": "none"
+      },
+      "a:hover": {
+        "text-decoration": "underline",
+        "color": "#87A96B"
+      },
+      "table": {
+        "width": "100%",
+        "border-collapse": "collapse",
+        "margin-bottom": "1em"
+      },
+      "th, td": {
+        "border": "1px solid #8B8680",
+        "padding": "8px",
+        "text-align": "left"
+      },
+      "th": {
+        "background-color": "#006B6B",
+        "color": "#F5F5F5",
+        "font-family": "'Montserrat', sans-serif"
+      },
+      "blockquote": {
+        "border-left": "4px solid #87A96B",
+        "padding-left": "1em",
+        "margin-left": "0",
+        "font-style": "italic",
+        "color": "#8B8680"
+      },
+      "pre, code": {
+        "font-family": "'Fira Code', monospace",
+        "background-color": "#F5F5F5",
+        "border": "1px solid #8B8680",
+        "border-radius": "4px",
+        "padding": "0.2em 0.4em"
+      },
+      "pre": {
+        "padding": "1em",
+        "overflow-x": "auto"
+      },
+      "button, .button": {
+        "background-color": "#006B6B",
+        "color": "#FFFFFF",
+        "border": "none",
+        "padding": "10px 20px",
+        "border-radius": "5px",
+        "cursor": "pointer",
+        "font-family": "'Montserrat', sans-serif",
+        "font-size": "16px",
+        "text-align": "center",
+        "text-decoration": "none",
+        "display": "inline-block"
+      },
+      "button:hover, .button:hover": {
+        "background-color": "#005050"
+      },
+      "input[type='text'], input[type='password'], input[type='email'], textarea, select": {
+        "width": "100%",
+        "padding": "10px",
+        "margin-bottom": "10px",
+        "border": "1px solid #8B8680",
+        "border-radius": "4px",
+        "box-sizing": "border-box",
+        "font-family": "'Lora', serif"
+      },
+      "input[type='text']:focus, textarea:focus, select:focus": {
+        "border-color": "#B8860B",
+        "outline": "none"
+      },
+      "ul, ol": {
+        "margin-bottom": "1em",
+        "padding-left": "20px"
+      },
+      "li": {
+        "margin-bottom": "0.5em"
+      },
+      ".card": {
+        "background-color": "#FFFFFF",
+        "border": "1px solid #E0E0E0",
+        "border-radius": "8px",
+        "padding": "20px",
+        "margin-bottom": "20px",
+        "box-shadow": "0 2px 4px rgba(0,0,0,0.1)"
+      },
+      ".alert": {
+        "padding": "15px",
+        "margin-bottom": "15px",
+        "border-radius": "4px",
+        "font-family": "'Lora', serif"
+      },
+      ".alert-success": {
+        "background-color": "#D4EDDA",
+        "color": "#155724",
+        "border": "1px solid #C3E6CB"
+      },
+      ".alert-info": {
+        "background-color": "#D1ECF1",
+        "color": "#0C5460",
+        "border": "1px solid #BEE5EB"
+      },
+      ".alert-warning": {
+        "background-color": "#FFF3CD",
+        "color": "#856404",
+        "border": "1px solid #FFEBA8"
+      },
+      ".alert-danger": {
+        "background-color": "#F8D7DA",
+        "color": "#721C24",
+        "border": "1px solid #F5C6CB"
+      }
+    },
+    "markdown_style": {
+      "comment": "Styles for a Markdown to PDF/HTML renderer.",
+      "h1": {
+        "color": "#006B6B",
+        "font_family": "Montserrat",
+        "font_size": "24pt",
+        "font_weight": "bold"
+      },
+      "h2": {
+        "color": "#006B6B",
+        "font_family": "Montserrat",
+        "font_size": "20pt",
+        "font_weight": "bold"
+      },
+      "h3": {
+        "color": "#006B6B",
+        "font_family": "Montserrat",
+        "font_size": "16pt",
+        "font_weight": "bold"
+      },
+      "paragraph": {
+        "color": "#333333",
+        "font_family": "Lora",
+        "font_size": "12pt"
+      },
+      "link": {
+        "color": "#B8860B"
+      },
+      "blockquote": {
+        "color": "#8B8680",
+        "border_color": "#87A96B"
+      },
+      "code_block": {
+        "color": "#333333",
+        "background_color": "#F5F5F5",
+        "font_family": "Fira Code"
+      },
+      "list_item": {
+        "color": "#333333",
+        "font_family": "Lora"
+      }
+    },
+    "powerbi_theme": {
+      "name": "JG Global Style",
+      "dataColors": [
+        "#006B6B",
+        "#87A96B",
+        "#B8860B",
+        "#8B8680",
+        "#5F9EA0",
+        "#D2B48C",
+        "#708090",
+        "#4682B4"
+      ],
+      "background": "#FFFFFF",
+      "foreground": "#333333",
+      "tableAccent": "#006B6B",
+      "visualStyles": {
+        "page": {
+          "*": {
+            "background": [
+              {
+                "color": {
+                  "solid": {
+                    "color": "#FFFFFF"
+                  }
+                },
+                "transparency": 0
+              }
+            ]
+          }
+        },
+        "title": {
+          "*": {
+            "fontColor": {
+              "solid": {
+                "color": "#006B6B"
+              }
+            },
+            "fontFamily": "Montserrat",
+            "fontSize": 14
+          }
+        },
+        "card": {
+          "*": {
+            "labels": {
+              "color": {
+                "solid": {
+                  "color": "#006B6B"
+                }
+              },
+              "fontFamily": "Lora"
+            },
+            "categoryLabels": {
+              "color": {
+                "solid": {
+                  "color": "#8B8680"
+                }
+              },
+              "fontFamily": "Lora"
+            }
+          }
+        },
+        "tableEx": {
+          "*": {
+            "stylePreset": "None",
+            "grid": {
+              "gridVerticalColor": {
+                "solid": {
+                  "color": "#8B8680"
+                }
+              },
+              "gridHorizontalColor": {
+                "solid": {
+                  "color": "#8B8680"
+                }
+              }
+            },
+            "columnHeaders": {
+              "fontColor": {
+                "solid": {
+                  "color": "#F5F5F5"
+                }
+              },
+              "backColor": {
+                "solid": {
+                  "color": "#006B6B"
+                }
+              },
+              "fontFamily": "Montserrat"
+            },
+            "values": {
+              "fontColor": {
+                "solid": {
+                  "color": "#333333"
+                }
+              },
+              "backColor": {
+                "solid": {
+                  "color": "#FFFFFF"
+                }
+              },
+              "fontFamily": "Lora"
+            }
+          }
+        }
+      }
+    },
+    "word_document": {
+      "comment": "Blueprint for a script using python-docx or similar.",
+      "Normal": {
+        "font": {
+          "name": "Lora",
+          "size_pt": 12,
+          "color_hex": "333333"
+        },
+        "paragraph": {
+          "space_after_pt": 8
+        }
+      },
+      "Heading 1": {
+        "font": {
+          "name": "Montserrat",
+          "size_pt": 20,
+          "bold": true,
+          "color_hex": "006B6B"
+        },
+        "paragraph": {
+          "space_before_pt": 24,
+          "space_after_pt": 6
+        }
+      },
+      "Heading 2": {
+        "font": {
+          "name": "Montserrat",
+          "size_pt": 16,
+          "bold": true,
+          "color_hex": "006B6B"
+        },
+        "paragraph": {
+          "space_before_pt": 18,
+          "space_after_pt": 4
+        }
+      },
+      "Heading 3": {
+        "font": {
+          "name": "Montserrat",
+          "size_pt": 13,
+          "bold": true,
+          "color_hex": "006B6B"
+        },
+        "paragraph": {
+          "space_before_pt": 12,
+          "space_after_pt": 4
+        }
+      },
+      "Intense Quote": {
+        "font": {
+          "name": "Lora",
+          "italic": true,
+          "color_hex": "8B8680"
+        },
+        "paragraph": {
+          "left_indent_inches": 0.5
+        }
+      },
+      "Code": {
+        "font": {
+          "name": "Fira Code",
+          "size_pt": 10,
+          "color_hex": "333333"
+        },
+        "paragraph": {
+          "shading_hex": "F5F5F5"
+        }
+      }
+    },
+    "powerpoint_presentation": {
+      "comment": "Blueprint for a script using python-pptx or similar.",
+      "theme_colors": {
+        "dk1": "#333333",
+        "lt1": "#FFFFFF",
+        "dk2": "#8B8680",
+        "lt2": "#F5F5F5",
+        "accent1": "#006B6B",
+        "accent2": "#87A96B",
+        "accent3": "#B8860B",
+        "accent4": "#5F9EA0",
+        "accent5": "#D2B48C",
+        "accent6": "#708090",
+        "hlink": "#B8860B",
+        "folHlink": "#87A96B"
+      },
+      "font_scheme": {
+        "major": {
+          "name": "Montserrat",
+          "latin": "Montserrat",
+          "ea": "Yu Gothic",
+          "cs": "Arial"
+        },
+        "minor": {
+          "name": "Lora",
+          "latin": "Lora",
+          "ea": "Yu Gothic",
+          "cs": "Arial"
+        }
+      },
+      "slide_master_defaults": {
+        "background_style": {
+          "fill": {
+            "solid": "#FFFFFF"
+          }
+        },
+        "title_shape": {
+          "text_frame": {
+            "font": "Montserrat",
+            "size_pt": 44,
+            "bold": true,
+            "color_hex": "006B6B"
+          }
+        },
+        "body_shape": {
+          "text_frame": {
+            "font": "Lora",
+            "size_pt": 18,
+            "color_hex": "333333"
+          }
+        }
+      }
+    },
+    "excel_workbook": {
+      "comment": "Blueprint for a script using openpyxl or similar.",
+      "theme_colors": [
+        "#006B6B",
+        "#87A96B",
+        "#B8860B",
+        "#8B8680",
+        "#5F9EA0",
+        "#D2B48C"
+      ],
+      "default_table_style": {
+        "name": "JG_TableStyle",
+        "header_row": {
+          "font": {
+            "bold": true,
+            "color_hex": "F5F5F5"
+          },
+          "fill": {
+            "patternType": "solid",
+            "fgColor_hex": "006B6B"
+          }
+        },
+        "total_row": {
+          "font": {
+            "bold": true
+          },
+          "border": {
+            "top": {
+              "style": "thin",
+              "color_hex": "333333"
+            }
+          }
+        },
+        "banded_rows": {
+          "band1": {
+            "fill": {
+              "patternType": "solid",
+              "fgColor_hex": "F5F5F5"
+            }
+          },
+          "band2": {
+            "fill": {
+              "patternType": "solid",
+              "fgColor_hex": "FFFFFF"
+            }
+          }
+        }
+      },
+      "cell_styles": {
+        "Title": {
+          "font": {
+            "name": "Montserrat",
+            "size": 24,
+            "bold": true,
+            "color_hex": "006B6B"
+          },
+          "border": {
+            "bottom": {
+              "style": "thin",
+              "color_hex": "87A96B"
+            }
+          }
+        },
+        "Heading 1": {
+          "font": {
+            "name": "Montserrat",
+            "size": 16,
+            "bold": true,
+            "color_hex": "006B6B"
+          },
+          "border": {
+            "bottom": {
+              "style": "thin",
+              "color_hex": "87A96B"
+            }
+          }
+        },
+        "Input": {
+          "font": {
+            "color_hex": "B8860B"
+          },
+          "fill": {
+            "patternType": "solid",
+            "fgColor_hex": "FFFFE0"
+          }
+        },
+        "Output": {
+          "font": {
+            "bold": true,
+            "color_hex": "333333"
+          }
+        },
+        "Calculation": {
+          "font": {
+            "italic": true,
+            "color_hex": "8B8680"
+          }
+        }
+      }
+    },
+    "latex_report": {
+      "comment": "Styles for LaTeX documents, defining colors and fonts for various elements.",
+      "colors": {
+        "primary": "0,107,107",
+        "secondary": "135,169,107",
+        "accent1": "184,134,11",
+        "accent2": "139,134,128",
+        "text_dark": "51,51,51",
+        "text_light": "245,245,245"
+      },
+      "fonts": {
+        "main_font": "Lora",
+        "sans_font": "Montserrat",
+        "mono_font": "Fira Code"
+      },
+      "document_layout": {
+        "margins": "1in",
+        "header_footer_color": "accent2"
+      },
+      "paragraph_styles": {
+        "normal_text": {
+          "font_color": "text_dark",
+          "font_size": "10pt",
+          "line_spacing": "1.5"
+        },
+        "indentation": "0.5in"
+      },
+      "heading_styles": {
+        "chapter": {
+          "font_color": "primary",
+          "font_size": "24pt",
+          "font_weight": "bold",
+          "space_before": "24pt",
+          "space_after": "12pt"
+        },
+        "section": {
+          "font_color": "primary",
+          "font_size": "18pt",
+          "font_weight": "bold",
+          "space_before": "18pt",
+          "space_after": "9pt"
+        },
+        "subsection": {
+          "font_color": "primary",
+          "font_size": "14pt",
+          "font_weight": "bold",
+          "space_before": "14pt",
+          "space_after": "7pt"
+        },
+        "subsubsection": {
+          "font_color": "primary",
+          "font_size": "12pt",
+          "font_weight": "bold",
+          "space_before": "12pt",
+          "space_after": "6pt"
+        },
+        "paragraph": {
+          "font_color": "text_dark",
+          "font_size": "10pt",
+          "font_weight": "bold",
+          "space_before": "10pt",
+          "space_after": "5pt"
+        },
+        "subparagraph": {
+          "font_color": "text_dark",
+          "font_size": "10pt",
+          "font_weight": "normal",
+          "space_before": "10pt",
+          "space_after": "5pt"
+        }
+      },
+      "list_styles": {
+        "item_indent": "0.25in",
+        "enum_indent": "0.35in",
+        "bullet_color": "secondary",
+        "number_color": "accent1"
+      },
+      "table_styles": {
+        "border_color": "accent2",
+        "header_background": "primary",
+        "header_text_color": "text_light",
+        "row_band_color": "text_light"
+      },
+      "blockquote_style": {
+        "border_color": "secondary",
+        "text_color": "accent2",
+        "font_style": "italic",
+        "padding_left": "1em"
+      },
+      "figure_caption_style": {
+        "font_size": "9pt",
+        "font_color": "accent2"
+      },
+      "sections": {
+        "section_color": "primary",
+        "subsection_color": "primary"
+      },
+      "hyperlinks": {
+        "color": "accent1"
+      },
+      "code_blocks": {
+        "background_color": "text_light",
+        "text_color": "text_dark"
+      }
+    },
+    "mermaid_diagram": {
+      "comment": "Styles for Mermaid diagrams, defining colors for nodes, edges, and text.",
+      "theme": "default",
+      "themeVariables": {
+        "primaryColor": "#006B6B",
+        "primaryBorderColor": "#005050",
+        "primaryTextColor": "#F5F5F5",
+        "secondaryColor": "#87A96B",
+        "tertiaryColor": "#B8860B",
+        "lineColor": "#8B8680",
+        "textColor": "#333333",
+        "mainBkg": "#FFFFFF",
+        "nodeBorder": "#006B6B",
+        "clusterBkg": "#F5F5F5",
+        "clusterBorder": "#8B8680"
+      }
+    },
+    "python_plotting": {
+      "comment": "Styles for Python plotting libraries (e.g., Matplotlib, Seaborn).",
+      "colors": [
+        "#006B6B",
+        "#87A96B",
+        "#B8860B",
+        "#8B8680",
+        "#5F9EA0",
+        "#D2B48C",
+        "#708090",
+        "#4682B4"
+      ],
+      "font": {
+        "family": "Lora",
+        "size": 12,
+        "color": "#333333"
+      },
+      "axes": {
+        "labelcolor": "#333333",
+        "edgecolor": "#8B8680",
+        "label_size": 12,
+        "title_size": 14,
+        "title_font": "Montserrat"
+      },
+      "grid": {
+        "color": "#E0E0E0",
+        "linestyle": "--"
+      },
+      "figure": {
+        "facecolor": "#FFFFFF",
+        "edgecolor": "#FFFFFF"
+      }
+    },
+    "r_plotting": {
+      "comment": "Styles for R plotting libraries (e.g., ggplot2, base R graphics).",
+      "colors": [
+        "#006B6B",
+        "#87A96B",
+        "#B8860B",
+        "#8B8680",
+        "#5F9EA0",
+        "#D2B48C",
+        "#708090",
+        "#4682B4"
+      ],
+      "ggplot2_theme": {
+        "base_size": 12,
+        "base_family": "Lora",
+        "plot.title": {
+          "family": "Montserrat",
+          "color": "#006B6B",
+          "size": 14,
+          "face": "bold"
+        },
+        "axis.title": {
+          "family": "Lora",
+          "color": "#333333",
+          "size": 12
+        },
+        "axis.text": {
+          "family": "Lora",
+          "color": "#333333",
+          "size": 10
+        },
+        "legend.title": {
+          "family": "Lora",
+          "color": "#333333",
+          "size": 12
+        },
+        "legend.text": {
+          "family": "Lora",
+          "color": "#333333",
+          "size": 10
+        },
+        "panel.background": {
+          "fill": "#FFFFFF"
+        },
+        "panel.grid.major": {
+          "color": "#E0E0E0",
+          "linetype": "dashed"
+        },
+        "panel.grid.minor": {
+          "color": "#F5F5F5",
+          "linetype": "dotted"
+        }
+      },
+      "rstudio_ide_theme": {
+        "comment": "RStudio IDE theme (rstheme) - CSS based.",
+        "editor_background": "#272822",
+        "editor_foreground": "#F8F8F2",
+        "selection_background": "#49483E",
+        "cursor_color": "#F8F8F0",
+        "line_number_color": "#888888",
+        "syntax_colors": {
+          "comment": "#75715E",
+          "string": "#E6DB74",
+          "number": "#AE81FF",
+          "keyword": "#F92672",
+          "function": "#A6E22E",
+          "variable": "#FD971F"
+        },
+        "font_family": "Fira Code",
+        "font_size": "12pt"
+      }
+    },
+    "cli_output": {
+      "comment": "ANSI escape code definitions for CLI output and prompts.",
+      "colors": {
+        "reset": "[0m",
+        "bold": "[1m",
+        "dim": "[2m",
+        "red": "[31m",
+        "green": "[32m",
+        "yellow": "[33m",
+        "blue": "[34m",
+        "cyan": "[36m",
+        "white": "[37m",
+        "bg_red": "[41m",
+        "bg_green": "[42m"
+      },
+      "prompt_elements": {
+        "user_host": "{green}{bold}u@h{reset}",
+        "current_dir": "{cyan}w{reset}",
+        "git_status": "{yellow}(%s){reset}"
+      },
+      "message_types": {
+        "info": "{blue}INFO:{reset} ",
+        "success": "{green}SUCCESS:{reset} ",
+        "warning": "{yellow}WARNING:{reset} ",
+        "error": "{red}{bold}ERROR:{reset} "
+      }
+    },
+    "ide_theme": {
+      "comment": "Configuration for a code editor theme (e.g., VS Code).",
+      "colors": {
+        "editor.background": "#1E1E1E",
+        "editor.foreground": "#D4D4D4",
+        "editorLineNumber.foreground": "#858585",
+        "selection.background": "#264F78",
+        "keyword.color": "#569CD6",
+        "string.color": "#CE9178",
+        "comment.color": "#6A9955"
+      },
+      "font_settings": {
+        "editor_font_family": "Fira Code",
+        "editor_font_size": 14
+      }
+    },
+    "web_component_theme": {
+      "comment": "Global design tokens for a web component library or static site generator.",
+      "spacing": {
+        "xs": "4px",
+        "sm": "8px",
+        "md": "16px",
+        "lg": "32px"
+      },
+      "borders": {
+        "radius_sm": "4px",
+        "radius_md": "8px"
+      },
+      "shadows": {
+        "elevation1": "0px 2px 4px rgba(0,0,0,0.1)"
+      },
+      "button_component": {
+        "primary_background": "#006B6B",
+        "primary_text_color": "#FFFFFF",
+        "primary_hover_background": "#005050",
+        "border_radius": "4px"
+      }
+    },
+    "mobile_app_theme": {
+      "comment": "Theme definition for a mobile application (e.g., Material Design for Android).",
+      "colors": {
+        "primary": "#006B6B",
+        "primary_variant": "#005050",
+        "secondary": "#87A96B",
+        "background": "#FFFFFF",
+        "surface": "#F5F5F5",
+        "error": "#B00020",
+        "on_primary": "#FFFFFF",
+        "on_secondary": "#000000",
+        "on_background": "#333333",
+        "on_surface": "#333333",
+        "on_error": "#FFFFFF"
+      },
+      "typography_scale": {
+        "headline1": {
+          "font_family": "Montserrat",
+          "font_size": "96sp",
+          "letter_spacing": "-1.5sp"
+        },
+        "body1": {
+          "font_family": "Lora",
+          "font_size": "16sp",
+          "letter_spacing": "0.5sp"
+        }
+      },
+      "component_styles": {
+        "button": {
+          "corner_radius": "4dp",
+          "elevation": "2dp"
+        }
+      }
+    },
+    "gis_map_style": {
+      "comment": "Styling rules for GIS map layers (conceptual).",
+      "layers": {
+        "water_bodies": {
+          "fill_color": "#006B6B",
+          "border_color": "#005050",
+          "border_width": "1px"
+        },
+        "roads": {
+          "line_color": "#8B8680",
+          "line_width": "2px",
+          "line_style": "solid"
+        },
+        "points_of_interest": {
+          "symbol_type": "circle",
+          "symbol_color": "#B8860B",
+          "symbol_size": "8px",
+          "label_font": "Lora",
+          "label_color": "#333333"
+        }
+      }
+    },
+    "latex_presentation": {
+      "comment": "Styles for LaTeX Beamer presentations, optimized for impact and readability.",
+      "colors": {
+        "primary": "0,107,107",
+        "secondary": "135,169,107",
+        "accent1": "184,134,11",
+        "accent2": "139,134,128",
+        "text_dark": "51,51,51",
+        "text_light": "245,245,245"
+      },
+      "fonts": {
+        "main_font": "Lora",
+        "sans_font": "Montserrat",
+        "mono_font": "Fira Code"
+      },
+      "slide_layout": {
+        "title_font_size": "36pt",
+        "heading_font_size": "28pt",
+        "body_font_size": "18pt",
+        "bullet_color": "accent1",
+        "background_color": "text_light",
+        "foreground_color": "text_dark"
+      },
+      "block_styles": {
+        "alert_block": {
+          "background_color": "secondary",
+          "text_color": "text_light",
+          "border_color": "secondary"
+        },
+        "example_block": {
+          "background_color": "text_light",
+          "text_color": "text_dark",
+          "border_color": "accent2"
+        }
+      }
+    },
+    "latex_technical_note": {
+      "comment": "Minimalist LaTeX style for concise technical notes and memos.",
+      "colors": {
+        "primary": "0,107,107",
+        "secondary": "135,169,107",
+        "accent1": "184,134,11",
+        "accent2": "139,134,128",
+        "text_dark": "51,51,51",
+        "text_light": "245,245,245"
+      },
+      "fonts": {
+        "main_font": "Lora",
+        "sans_font": "Montserrat",
+        "mono_font": "Fira Code"
+      },
+      "document_layout": {
+        "margins": "0.75in",
+        "line_spacing": "1.2"
+      },
+      "heading_styles": {
+        "section": {
+          "font_color": "primary",
+          "font_size": "14pt",
+          "font_weight": "bold"
+        },
+        "subsection": {
+          "font_color": "text_dark",
+          "font_size": "12pt",
+          "font_weight": "bold"
+        }
+      },
+      "code_blocks": {
+        "background_color": "text_light",
+        "text_color": "text_dark",
+        "border_color": "accent2"
+      }
+    }
+  }
+}
